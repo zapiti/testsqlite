@@ -14,6 +14,15 @@
 		D8058C08217F0278000F43CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8058C06217F0278000F43CC /* LaunchScreen.storyboard */; };
 		D8058C13217F0278000F43CC /* testsqliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C12217F0278000F43CC /* testsqliteTests.swift */; };
 		D8058C1E217F0278000F43CC /* testsqliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C1D217F0278000F43CC /* testsqliteUITests.swift */; };
+		D8058C34217F02AF000F43CC /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C2B217F02AF000F43CC /* Update.swift */; };
+		D8058C35217F02AF000F43CC /* SQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C2C217F02AF000F43CC /* SQL.swift */; };
+		D8058C36217F02AF000F43CC /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C2D217F02AF000F43CC /* Convenience.swift */; };
+		D8058C37217F02AF000F43CC /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C2E217F02AF000F43CC /* Select.swift */; };
+		D8058C38217F02AF000F43CC /* SQLiteStORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C2F217F02AF000F43CC /* SQLiteStORM.swift */; };
+		D8058C39217F02AF000F43CC /* parseRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C30217F02AF000F43CC /* parseRows.swift */; };
+		D8058C3A217F02AF000F43CC /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C31217F02AF000F43CC /* Delete.swift */; };
+		D8058C3B217F02AF000F43CC /* Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C32217F02AF000F43CC /* Insert.swift */; };
+		D8058C3C217F02AF000F43CC /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8058C33217F02AF000F43CC /* SQLiteConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		D8058C19217F0278000F43CC /* testsqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testsqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8058C1D217F0278000F43CC /* testsqliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsqliteUITests.swift; sourceTree = "<group>"; };
 		D8058C1F217F0278000F43CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8058C2B217F02AF000F43CC /* Update.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Update.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/Update.swift"; sourceTree = "<group>"; };
+		D8058C2C217F02AF000F43CC /* SQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQL.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/SQL.swift"; sourceTree = "<group>"; };
+		D8058C2D217F02AF000F43CC /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Convenience.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/Convenience.swift"; sourceTree = "<group>"; };
+		D8058C2E217F02AF000F43CC /* Select.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Select.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/Select.swift"; sourceTree = "<group>"; };
+		D8058C2F217F02AF000F43CC /* SQLiteStORM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteStORM.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/SQLiteStORM.swift"; sourceTree = "<group>"; };
+		D8058C30217F02AF000F43CC /* parseRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = parseRows.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/parseRows.swift"; sourceTree = "<group>"; };
+		D8058C31217F02AF000F43CC /* Delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delete.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/Delete.swift"; sourceTree = "<group>"; };
+		D8058C32217F02AF000F43CC /* Insert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Insert.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/Insert.swift"; sourceTree = "<group>"; };
+		D8058C33217F02AF000F43CC /* SQLiteConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteConnect.swift; path = "../../../../../Documents/testes/SQLite-StORM/Sources/SQLiteConnect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,15 @@
 		D8058BFC217F0277000F43CC /* testsqlite */ = {
 			isa = PBXGroup;
 			children = (
+				D8058C2D217F02AF000F43CC /* Convenience.swift */,
+				D8058C31217F02AF000F43CC /* Delete.swift */,
+				D8058C32217F02AF000F43CC /* Insert.swift */,
+				D8058C30217F02AF000F43CC /* parseRows.swift */,
+				D8058C2E217F02AF000F43CC /* Select.swift */,
+				D8058C2C217F02AF000F43CC /* SQL.swift */,
+				D8058C33217F02AF000F43CC /* SQLiteConnect.swift */,
+				D8058C2F217F02AF000F43CC /* SQLiteStORM.swift */,
+				D8058C2B217F02AF000F43CC /* Update.swift */,
 				D8058BFD217F0277000F43CC /* AppDelegate.swift */,
 				D8058BFF217F0277000F43CC /* ViewController.swift */,
 				D8058C01217F0277000F43CC /* Main.storyboard */,
@@ -256,8 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8058C3B217F02AF000F43CC /* Insert.swift in Sources */,
+				D8058C39217F02AF000F43CC /* parseRows.swift in Sources */,
+				D8058C3C217F02AF000F43CC /* SQLiteConnect.swift in Sources */,
+				D8058C35217F02AF000F43CC /* SQL.swift in Sources */,
+				D8058C36217F02AF000F43CC /* Convenience.swift in Sources */,
+				D8058C3A217F02AF000F43CC /* Delete.swift in Sources */,
+				D8058C38217F02AF000F43CC /* SQLiteStORM.swift in Sources */,
+				D8058C34217F02AF000F43CC /* Update.swift in Sources */,
 				D8058C00217F0277000F43CC /* ViewController.swift in Sources */,
 				D8058BFE217F0277000F43CC /* AppDelegate.swift in Sources */,
+				D8058C37217F02AF000F43CC /* Select.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
